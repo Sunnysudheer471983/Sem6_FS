@@ -1,0 +1,242 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+  color: #333;
+}
+
+/* App container */
+.app-container {
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background: green;
+  color: white;
+  padding: 15px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  border: none;
+  background: none;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  font-weight: normal;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.logout-link {
+  margin-left: 10px;
+}
+
+.tab-separator {
+  color: white;
+  font-size: 14px;
+}
+
+/* Main content */
+.content {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  min-height: calc(100vh - 60px);
+}
+
+.page-container {
+  width: 100%;
+}
+
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 60px);
+}
+
+.dashboard-section {
+  width: 100%;
+}
+
+/* Dashboard */
+.dashboard-container {
+  background: white;
+  padding: 20px;
+  border: 1px solid black;
+  max-width: 100%;
+}
+
+.dashboard-container h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.dashboard-tabs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: #666;
+  padding: 0;
+  font-weight: normal;
+}
+
+.tab-btn.active {
+  color: #333;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+}
+
+.tab-separator {
+  color: #999;
+  font-size: 13px;
+  margin: 0 5px;
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 20px;
+}
+
+.summary-card {
+  background: white;
+  padding: 15px;
+  border: 1px solid black;
+  min-width: 250px;
+  text-align: center;
+}
+
+.summary-card .total {
+  font-size: 28px;
+  font-weight: bold;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.summary-card p {
+  font-size: 13px;
+  color: #333;
+  margin: 0;
+}
+
+.analytics-card {
+  background: white;
+  padding: 15px;
+  border: 1px solid black;
+  flex: 1;
+}
+
+.analytics-card h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.analytics-card p {
+  font-size: 13px;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.analytics-card ul {
+  list-style: disc;
+  margin-left: 20px;
+  font-size: 13px;
+  color: #333;
+}
+
+.analytics-card li {
+  margin-bottom: 5px;
+}
+
+.dashboard-info {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.dashboard-info p {
+  font-size: 13px;
+  color: #333;
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid black;
+}
+
+.card h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Total value */
+.total {
+  font-size: 24px;
+  font-weight: bold;
+  color: green;
+}
+
+/* List */
+ul {
+  list-style: disc;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* High value */
+.high {
+  color: red;
+  font-weight: bold;
+}
