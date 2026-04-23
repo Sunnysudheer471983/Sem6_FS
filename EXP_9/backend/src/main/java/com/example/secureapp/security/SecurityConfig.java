@@ -46,7 +46,7 @@ public class SecurityConfig {
                 .userInfoEndpoint(userInfo -> userInfo
                     .userService(oauth2UserService())
                 )
-                .defaultSuccessUrl("/api/user", true)
+                .defaultSuccessUrl("http://localhost:5175", true)
             );
         return http.build();
     }

@@ -31,12 +31,12 @@ function App() {
   }
 
   const login = () => {
-    window.location.href = '/oauth2/authorization/google'
+    window.location.href = 'http://localhost:8080/oauth2/authorization/google'
   }
 
   const logout = () => {
     setUser(null)
-    window.location.href = '/logout'
+    window.location.href = 'http://localhost:8080/logout'
   }
 
   const createUser = async () => {
