@@ -1,0 +1,12 @@
+# Ignore Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Ignore Maven build output
+target/
+**/target/
+
+# Ignore IDE files
+.vscode/
+*.log
+.DS_Store
