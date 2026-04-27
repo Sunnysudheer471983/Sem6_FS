@@ -1,0 +1,13 @@
+.container{
+  text-align:center;
+  font-family:Arial;
+  padding:30px;
+}
+
+.box{
+  border:2px solid black;
+  margin:20px auto;
+  width:350px;
+  padding:20px;
+  border-radius:10px;
+}
